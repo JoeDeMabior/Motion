@@ -5,4 +5,5 @@
     <string name="main_menu">Main menu</string>
     <string name="dialog">Dialog</string>
     <string name="account">Account</string>
+    <string name="image_details">Image Details</string>
 </resources>

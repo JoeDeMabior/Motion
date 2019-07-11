@@ -165,4 +165,10 @@ class RecyclerFragment : BaseFragment(), View.OnClickListener {
         }
     }
 
+    companion object {
+        fun newInstance(): RecyclerFragment {
+            return RecyclerFragment()
+        }
+    }
+
 }

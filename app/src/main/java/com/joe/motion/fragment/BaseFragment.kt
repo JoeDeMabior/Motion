@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import com.joe.motion.R
 import com.joe.motion.common.getStatusBarHeight
 
-class BaseFragment : Fragment() {
+open class BaseFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         setupToolbarMargin(view)

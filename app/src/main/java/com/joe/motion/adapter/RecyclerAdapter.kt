@@ -3,9 +3,10 @@ package com.joe.motion.adapter
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.joe.motion.fragment.RecyclerFragment
 import com.joe.motion.model.DataProvider
 
-class RecyclerAadapter<T : DataProvider.BaseData>(
+class RecyclerAdapter<T : DataProvider.BaseData>(
     private var dataSet: List<T>,
     private var listener: View.OnClickListener? = null
 ) : RecyclerView.Adapter<BaseViewHolder<T>>() {
